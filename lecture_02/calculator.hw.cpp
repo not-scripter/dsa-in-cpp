@@ -11,7 +11,7 @@ int main() {
   cout << "enter your second number: ";
   cin >> valueTwo;
 
-  cout << "1-Sum, 2-Minus, 3-Multiply, 4-Devide, 5-Module what to perform: ";
+  cout << "1-Sum, 2-Minus, 3-Multiply, 4-Devide, 5-Modulo what to perform: ";
   cout << "choose what to perform: ";
   cin >> mode;
 
