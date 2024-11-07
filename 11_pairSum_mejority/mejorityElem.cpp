@@ -7,7 +7,7 @@ int getMej(vector<int> vec) {
   for (int i = 0; i < vec.size(); i++) {
     if (freq == 0)
       ans = vec.at(i);
-    else if (ans == vec.at(i))
+    if (ans == vec.at(i))
       freq++;
     else
       freq--;
